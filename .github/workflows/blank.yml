@@ -40,3 +40,6 @@ jobs:
       
       - name: LS
         run: ls -la
+        
+      - name: Ansible
+        run:  ansible-playbook Ansible/playbook_ansible.yml 
